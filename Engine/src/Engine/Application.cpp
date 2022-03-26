@@ -1,6 +1,6 @@
 #include "Application.h"
 
-namespace OX
+namespace Toy
 {
 	Application::Application()
 	{

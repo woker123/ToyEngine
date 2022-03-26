@@ -2,9 +2,9 @@
 #include "Core.h"
 
 
-namespace OX
+namespace Toy
 {
-	class OX_API Application
+	class TOY_API Application
 	{
 	public:
 		Application();

@@ -1,7 +1,7 @@
 #include "Engine.h"
 
 
-class SandBoxApp : public OX::Application
+class SandBoxApp : public Toy::Application
 {
 public:
 	SandBoxApp()
@@ -19,7 +19,7 @@ public:
 	}
 };
 
-OX::Application* OX::CreateApplication()
+Toy::Application* Toy::CreateApplication()
 {
 	return new SandBoxApp();
 }

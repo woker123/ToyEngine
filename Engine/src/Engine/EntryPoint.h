@@ -1,13 +1,22 @@
 #pragma once
 #include "Application.h"
+#include "Log.h"
 
-#ifdef OX_PLATFORM_WINDOWS
+/******************This header file will be used by client application*******************/
 
-extern OX::Application* OX::CreateApplication();
+#ifdef TOY_PLATFORM_WINDOWS
+
+extern Toy::Application* Toy::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	OX::Application* app = OX::CreateApplication();
+	Toy::Log::Init();
+	TOY_CORE_LOG_TRACE("Initialized Log");
+	int num = 1;
+
+	TOY_CORE_LOG_ERROR("Valu={0}", num);
+
+	Toy::Application* app = Toy::CreateApplication();
 	app->Run();
 	delete app;
 }

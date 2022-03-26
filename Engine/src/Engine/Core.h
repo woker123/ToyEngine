@@ -1,11 +1,10 @@
 #pragma once
 
-
-#ifdef OX_PLATFORM_WINDOWS
-	#ifdef OX_BUILD_DLL
-		#define OX_API __declspec(dllexport)
+#ifdef TOY_PLATFORM_WINDOWS
+	#ifdef TOY_BUILD_DLL
+		#define TOY_API __declspec(dllexport)
 	#else
-		#define OX_API __declspec(dllimport)
+		#define TOY_API __declspec(dllimport)
 	#endif
 #else
 	#error ToyEngine Only Supports Window!
