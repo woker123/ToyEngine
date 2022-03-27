@@ -12,6 +12,7 @@ public:
 
 	virtual void Run() override
 	{
+		Application::Run();
 		while (true)
 		{
 

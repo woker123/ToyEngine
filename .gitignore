@@ -400,3 +400,8 @@ FodyWeavers.xsd
 #outputs
 bin/
 bin-int/
+
+#visual studio
+*.sln
+*.vcxproj
+*.filters

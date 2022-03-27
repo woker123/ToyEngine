@@ -11,10 +11,6 @@ extern Toy::Application* Toy::CreateApplication();
 int main(int argc, char** argv)
 {
 	Toy::Log::Init();
-	TOY_CORE_LOG_TRACE("Initialized Log");
-	int num = 1;
-
-	TOY_CORE_LOG_ERROR("Valu={0}", num);
 
 	Toy::Application* app = Toy::CreateApplication();
 	app->Run();
