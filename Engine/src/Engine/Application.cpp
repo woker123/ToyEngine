@@ -11,6 +11,11 @@ namespace Toy
 
 	}
 
-	void Application::Run() {}
+	void Application::Run()
+	{
+		
+		
+
+	}
 
 }

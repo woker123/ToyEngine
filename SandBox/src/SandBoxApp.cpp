@@ -1,6 +1,5 @@
 #include "Engine.h"
 
-
 class SandBoxApp : public Toy::Application
 {
 public:

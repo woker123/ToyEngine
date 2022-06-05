@@ -1,7 +1,6 @@
 #pragma once
 #include "Core.h"
 
-
 namespace Toy
 {
 	class TOY_API Application

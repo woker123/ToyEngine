@@ -405,3 +405,4 @@ bin-int/
 *.sln
 *.vcxproj
 *.filters
+*.bak

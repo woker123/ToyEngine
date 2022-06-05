@@ -9,3 +9,5 @@
 #else
 	#error ToyEngine Only Supports Window!
 #endif
+
+#define BIT(n) (1 << n)
