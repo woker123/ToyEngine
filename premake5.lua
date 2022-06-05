@@ -25,6 +25,9 @@ project "Engine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "toypch.h"
+	pchsource "Engine/src/toypch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

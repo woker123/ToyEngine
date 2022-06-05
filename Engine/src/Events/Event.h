@@ -1,7 +1,5 @@
 #pragma once
 
-#include <sstream>
-#include <functional>
 #include "Engine/Core.h"
 
 namespace Toy

@@ -1,3 +1,4 @@
+#include "toypch.h"
 #include "Application.h"
 
 namespace Toy
